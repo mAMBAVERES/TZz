@@ -7,7 +7,6 @@ class HolstPage(BasePage):
     def __init__(self):
         self.modal_page = Modal_page()
 
-
     def rename_const(self, cord, key):
         self.double_click(*cord)
         self.press_key(key=key)

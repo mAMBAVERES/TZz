@@ -10,7 +10,6 @@ class BasePage:
         pyautogui.FAILSAFE = True
         pyautogui.PAUSE = 0.1
 
-
     def click(self, x: int, y: int):
         pyautogui.click(x, y)
         time.sleep(1)
