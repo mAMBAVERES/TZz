@@ -5,8 +5,7 @@ def on_move(x, y):
 
 # Создаем слушатель мыши
 with mouse.Listener(on_move=on_move) as listener:
-    print("Отслеживание координат мыши начато. Нажмите Ctrl+C для остановки.")
     try:
         listener.join()
     except KeyboardInterrupt:
-        print("\nОстановлено пользователем")
+        print()
