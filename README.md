@@ -19,7 +19,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone <mAMBAVERES/TZz>
+git clone <https://github.com/mAMBAVERES/TZz.git>
 cd project-folder
 
 # Установка зависимостей
