@@ -135,4 +135,8 @@ class BasePage:
     def press_enter(self):
         pyautogui.press('enter')
 
+    def press_F6(self):
+        time.sleep(1)
+        pyautogui.press('f6')
+
 

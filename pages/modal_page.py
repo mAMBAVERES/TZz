@@ -23,6 +23,7 @@ class Modal_page(BasePage):
 
     def start_work(self):
         self.click_image(self.cord.start_button)
+        self.press_F6()
 
     def assert_simulation(self):
         time.sleep(2)

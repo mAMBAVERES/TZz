@@ -1,7 +1,6 @@
 import pytest
 from locators.coord_create_project_model import *
 from locators.coord_holst_page import *
-from locators.coord_modal_page import constant
 
 
 class Test_tz:
