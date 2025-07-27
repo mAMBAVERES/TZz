@@ -12,7 +12,7 @@ class Modal_page(BasePage):
         self.create_project = Create_project_page()
 
     def create_new_project(self, models, scroll, modification):
-        self.click(*self.cord.new_project)
+        self.click_image(image_path=self.cord.new_project)
         self.create_project.add_model_and_modification(image_path_model=models,
                                                        modification=modification,
                                                        scroll=scroll)
